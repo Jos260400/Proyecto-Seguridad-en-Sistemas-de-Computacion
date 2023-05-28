@@ -26,7 +26,7 @@ namespace Seguridad
             name = name ?? data?.name;
 
             string responseMessage = string.IsNullOrEmpty(name)
-                ? "This HTTP triggered function executed successfully. Pass a name in the query string or in the request body for a personalized response."
+                ? "Proyecto de Seguridad 2023 0d00f5ba-937a-4fdd-bf5d-0d379a484bfa"
                 : $"Hello, {name}. This HTTP triggered function executed successfully.";
 
             return new OkObjectResult(responseMessage);
